@@ -1,0 +1,54 @@
+.aboutUs {
+  margin-top: 50px;
+  height: 100vh;
+}
+.aboutUsDiv {
+  background-color: #e7e7e7;
+  display: flex;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.aboutUsDiv-imageDiv {
+  width: 50%;
+}
+.aboutUsDiv-imageDivImage {
+  width: 60%;
+  border-radius: 8%;
+}
+.aboutUsDiv-content {
+  width: 50%;
+}
+.aboutUsDiv-contentHeading {
+  color: #0e2368;
+  font-size: 45px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+.aboutUsDiv-contentPara {
+  color: #444957;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+.aboutUsDiv-contentButton {
+  color: white;
+  background-color: #e23744;
+  border: none;
+  margin-left: 80px;
+  text-transform: capitalize;
+  border-radius: 30px;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.18px;
+  word-wrap: break-word;
+}
