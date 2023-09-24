@@ -3,7 +3,6 @@ import Header from "./components/header/Header";
 import AboutUs from "./components/aboutUs/AboutUs";
 import LatestArticles from "./components/latestArticles/LatestArticles";
 import Footer from "./components/footer/Footer";
-// import ArticleCarousel from './ArticleCarousel';
 import Tomato from "./assets/tomato.jpg";
 import Salad from "./assets/salad.jpg";
 import Lunch from "./assets/lunch.jpg";
@@ -61,7 +60,7 @@ function App() {
       <Header />
       <AboutUs />
       <LatestArticles articles={articles} />
-      {/* <ArticleCarousel  /> */}
+
       <Footer />
     </div>
   );
