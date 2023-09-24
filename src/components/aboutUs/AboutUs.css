@@ -56,3 +56,79 @@
   letter-spacing: 0.18px;
   word-wrap: break-word;
 }
+.aboutUs {
+  margin-top: 50px;
+  height: 100vh;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .aboutUs {
+    height: auto;
+  }
+
+  .aboutUsDiv {
+    flex-direction: column;
+    height: auto;
+    top: auto;
+    left: auto;
+    transform: none;
+    text-align: center;
+  }
+
+  .aboutUsDiv-imageDiv {
+    width: 100%;
+  }
+
+  .aboutUsDiv-imageDivImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .aboutUsDiv-content {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .aboutUsDiv-contentHeading {
+    font-size: 32px;
+  }
+
+  .aboutUsDiv-contentPara {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .aboutUsDiv-contentButton {
+  }
+}
+
+/* For screens between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .aboutUsDiv-contentHeading {
+    font-size: 36px;
+  }
+
+  .aboutUsDiv-contentPara {
+    font-size: 16px;
+  }
+
+  .aboutUsDiv-contentButton {
+  }
+}
+
+/* For screens larger than 1024px */
+@media (min-width: 1025px) {
+  .aboutUsDiv-contentHeading {
+    font-size: 45px;
+  }
+
+  .aboutUsDiv-contentPara {
+    font-size: 15px;
+    width: 25vw;
+  }
+
+  .aboutUsDiv-contentButton {
+  }
+}

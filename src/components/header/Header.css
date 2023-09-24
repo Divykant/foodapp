@@ -65,3 +65,105 @@
   height: 100%;
   border-radius: 0% 0% 0% 30%;
 }
+
+.header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .header-contentDiv {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .header-contentDiv-logo {
+    margin: 0;
+  }
+
+  .header-contentDiv-heading {
+    font-size: 32px;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .header-contentDiv-heading-span {
+    font-size: 32px;
+  }
+
+  .header-contentDiv-para {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .header-contentDiv-button {
+    margin: 20px 0;
+    padding: 8px 20px;
+    font-size: 16px;
+  }
+
+  .header-imageDiv {
+    width: 100%;
+  }
+
+  .header-imageDiv-image {
+    border-radius: 0;
+  }
+}
+
+/* For screens between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-contentDiv-heading {
+    font-size: 40px;
+  }
+
+  .header-contentDiv-heading-span {
+    font-size: 40px;
+  }
+
+  .header-contentDiv-para {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .header-contentDiv-button {
+    font-size: 18px;
+  }
+}
+
+/* For screens larger than 1024px */
+@media (min-width: 1025px) {
+  .header-contentDiv-heading {
+    font-size: 62px;
+    margin-left: 80px;
+    width: 50%;
+  }
+
+  .header-contentDiv-heading-span {
+    font-size: 62px;
+  }
+
+  .header-contentDiv-para {
+    margin-left: 80px;
+    width: 50%;
+    font-size: 16.44px;
+    line-height: 27.41px;
+  }
+
+  .header-contentDiv-button {
+    margin-left: 80px;
+    font-size: 18px;
+  }
+}
