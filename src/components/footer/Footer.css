@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(214, 214, 214);
+  background-color: #f8f8f8;
   width: 100%;
 }
 .footer-containerDiv {
@@ -16,6 +16,7 @@
   font-size: 18.84px;
   font-family: Source Sans Pro;
   font-weight: 600;
+  text-align: justify;
   line-height: 27.22px;
   letter-spacing: 0.57px;
   word-wrap: break-word;
@@ -27,11 +28,14 @@
   font-family: Source Sans Pro;
   font-weight: 400;
   line-height: 23.03px;
+  text-align: justify;
   word-wrap: break-word;
 }
 #social {
+  text-align: justify;
   display: flex;
 }
 #social-list {
+  text-align: justify;
   margin-right: 30px;
 }

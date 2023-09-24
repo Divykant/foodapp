@@ -7,8 +7,10 @@
   font-size: 56px;
   font-family: Source Sans Pro;
   font-weight: 600;
+  text-align: justify;
   line-height: 42px;
   letter-spacing: 2.24px;
+  margin-left: 50px;
   word-wrap: break-word;
 }
 .latestArticles-sliderDiv {
@@ -28,14 +30,18 @@
 }
 .latestArticles-sliderDiv-CardDivHeading {
   color: #0e2368;
+  text-align: justify;
   font-size: 21px;
   font-family: Poppins;
   font-weight: 700;
+  margin: 35px;
   line-height: 27px;
   word-wrap: break-word;
 }
 .latestArticles-sliderDiv-CardDivPara {
   color: #444957;
+  text-align: justify;
+  margin: 35px;
   font-size: 15px;
   font-family: Open Sans;
   font-weight: 400;
@@ -46,6 +52,7 @@
   color: #424961;
   font-size: 16.44px;
   font-family: Source Sans Pro;
+  text-align: justify;
   font-weight: 600;
   line-height: 35.59px;
   letter-spacing: 0.49px;

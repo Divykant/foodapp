@@ -33,26 +33,23 @@ const Footer = () => {
           {/* Add your logo image here */}
         </div>
         <div className="footer-containerDiv-section">
-          <h3 className="footer-containerDiv-sectionTitle">Contact</h3>
+          <h3 className="footer-containerDiv-sectionTitle">Contact Us</h3>
           <p className="footer-containerDiv-sectionListItem">
-            Address: 123 Main Street
+            Lorem Ipsum Pvt Ltd.5/1, Magalton Road,<br></br> Phartosh Gate near
+            YTM Market, XYZ-343
           </p>
           <p className="footer-containerDiv-sectionListItem">
-            Email: example@example.com
+            example2020@gmail.com
           </p>
-          <p className="footer-containerDiv-sectionListItem">
-            Phone: +123 456 7890
-          </p>
+          <p className="footer-containerDiv-sectionListItem">(904) 443-0343</p>
         </div>
         <div className="footer-containerDiv-section">
-          <h3 className="footer-containerDiv-sectionTitle">Links</h3>
+          <h3 className="footer-containerDiv-sectionTitle">More</h3>
           <ul className="footer-containerDiv-sectionList">
             <li className="footer-containerDiv-sectionListItem">About Us</li>
-            <li className="footer-containerDiv-sectionListItem">
-              Latest Articles
-            </li>
-            <li className="footer-containerDiv-sectionListItem">Header Link</li>
-            <li className="footer-containerDiv-sectionListItem">More</li>
+            <li className="footer-containerDiv-sectionListItem">Products</li>
+            <li className="footer-containerDiv-sectionListItem">Career Link</li>
+            <li className="footer-containerDiv-sectionListItem">Contact Us</li>
           </ul>
         </div>
         <div className="footer-containerDiv-section">
