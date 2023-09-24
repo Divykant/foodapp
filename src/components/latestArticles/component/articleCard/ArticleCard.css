@@ -1,0 +1,49 @@
+.articleCard-sliderDiv-CardDiv {
+  width: 80%;
+  display: inline-block;
+  padding: 10px;
+  margin: 30px;
+  border: 1px solid rgb(184, 179, 179);
+  border-radius: 30px;
+}
+.articleCard-sliderDiv-CardDivImg {
+  width: 90%;
+  border-radius: 30px;
+  margin: 20px;
+}
+.articleCard-sliderDiv-CardDivHeading {
+  color: #0e2368;
+  text-align: justify;
+  font-size: 21px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin: 35px;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+.articleCard-sliderDiv-CardDivPara {
+  color: #444957;
+  text-align: justify;
+  margin: 35px;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+.articleCard-sliderDiv-CardDivButton {
+  color: #424961;
+  font-size: 16.44px;
+  font-family: Source Sans Pro;
+  text-align: justify;
+  font-weight: 600;
+  line-height: 35.59px;
+  letter-spacing: 0.49px;
+  background-color: #fff;
+  padding: 5px 20px 5px 20px;
+  word-wrap: break-word;
+  padding: 5px, 35px, 5px, 35px;
+  border: 0.5px solid grey;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
