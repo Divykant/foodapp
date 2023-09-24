@@ -56,7 +56,6 @@ const articles = [
 function App() {
   return (
     <div className="App">
-      <h1>food app</h1>
       <Header />
       <AboutUs />
       <LatestArticles articles={articles} />

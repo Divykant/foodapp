@@ -39,89 +39,89 @@
   text-align: justify;
   margin-right: 30px;
 }
-.footer {
-  background-color: #f8f8f8;
-  width: 100%;
-  padding: 20px 0;
+.articleCard-sliderDiv-CardDiv {
+  width: 80%;
+  display: inline-block;
+  padding: 10px;
+  margin: 30px;
+  border: 1px solid rgb(184, 179, 179);
+  border-radius: 30px;
 }
 
-.footer-containerDiv {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.articleCard-sliderDiv-CardDivImg {
+  width: 90%;
+  border-radius: 30px;
+  margin: 20px;
 }
 
-.footer-containerDiv-section {
-  width: 45%;
-  margin: 10px;
-}
-
-.footer-containerDiv-sectionList {
-}
-
-.footer-containerDiv-sectionTitle {
+.articleCard-sliderDiv-CardDivHeading {
   color: #0e2368;
-  font-size: 18.84px;
-  font-family: Source Sans Pro;
-  font-weight: 600;
   text-align: justify;
-  line-height: 27.22px;
-  letter-spacing: 0.57px;
+  font-size: 21px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin: 35px;
+  line-height: 27px;
   word-wrap: break-word;
 }
 
-.footer-containerDiv-sectionListItem {
-  color: #646874;
-  font-size: 14.66px;
-  list-style: none;
-  font-family: Source Sans Pro;
+.articleCard-sliderDiv-CardDivPara {
+  color: #444957;
+  text-align: justify;
+  margin: 35px;
+  font-size: 15px;
+  font-family: Open Sans;
   font-weight: 400;
-  line-height: 23.03px;
-  text-align: justify;
+  line-height: 27px;
   word-wrap: break-word;
 }
 
-#social {
+.articleCard-sliderDiv-CardDivButton {
+  color: #424961;
+  font-size: 16.44px;
+  font-family: Source Sans Pro;
   text-align: justify;
-  display: flex;
-}
-
-#social-list {
-  text-align: justify;
-  margin-right: 20px;
+  font-weight: 600;
+  line-height: 35.59px;
+  letter-spacing: 0.49px;
+  background-color: #fff;
+  padding: 5px 20px; /* Remove the second padding value */
+  word-wrap: break-word;
+  border: 0.5px solid grey;
+  border-radius: 50px;
+  text-transform: capitalize;
 }
 
 /* Media Queries for Responsive Design */
 
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
+  .articleCard-sliderDiv-CardDiv {
+    width: 90%; /* Decrease card width for smaller screens */
+    margin: 15px auto;
+    padding: 10px;
+  }
   .footer-containerDiv {
-    flex-direction: column;
+    display: block;
   }
 
-  .footer-containerDiv-section {
+  .articleCard-sliderDiv-CardDivImg {
     width: 100%;
     margin: 10px 0;
   }
 
-  .footer-containerDiv-sectionTitle {
-    font-size: 16px;
-    line-height: 24px;
+  .articleCard-sliderDiv-CardDivHeading {
+    font-size: 18px; /* Decrease font size for smaller screens */
+    margin: 20px;
   }
 
-  .footer-containerDiv-sectionListItem {
-    font-size: 12px;
-    line-height: 18px;
+  .articleCard-sliderDiv-CardDivPara {
+    font-size: 14px; /* Decrease font size for smaller screens */
+    margin: 20px;
   }
-}
 
-/* For screens between 769px and 1024px */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .footer-containerDiv {
-    justify-content: space-between;
+  .articleCard-sliderDiv-CardDivButton {
+    font-size: 14px; /* Decrease font size for smaller screens */
+    padding: 5px 15px; /* Adjust padding for smaller screens */
   }
-}
-
-/* For screens larger than 1024px */
-@media (min-width: 1025px) {
 }
